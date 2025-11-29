@@ -1,0 +1,24 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Implementação do zero do https://www.tabnews.com.br/ em conjunto com curso.dev",
+  "homepage": "https://github.com/johnmartins-eng/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/johnmartins-eng/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmartins-eng/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "John Martins",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
