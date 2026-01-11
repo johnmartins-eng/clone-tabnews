@@ -11,7 +11,9 @@ export default async function migrations(request, response) {
   } else if (request.method === "POST") {
     isDryRun = false;
   } else {
-    return response.status(405).json({ error: "No permission" });
+    return response
+      .status(405)
+      .json({ error: `Method "${request.method}" now allowed` });
   }
 
   const dbClient = await database.getNewClient();
